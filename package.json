@@ -13,6 +13,7 @@
     "classnames": "^2.2.6",
     "clsx": "latest",
     "next": "latest",
+    "next.js": "^1.0.3",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
