@@ -3,4 +3,5 @@ function Logo ({type = 'default'}) {
         <img src= {type == 'muted' ? "images/logo-muted.svg" : "images/logo.svg"}></img>
     )
 }
+
 export default Logo
