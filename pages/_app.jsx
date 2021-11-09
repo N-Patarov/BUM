@@ -7,7 +7,7 @@ import { CacheProvider } from '@emotion/react';
 import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
 import Logo from '../src/components/logo/logo.jsx';
-import Header from "../src/components/Header/Header.jsx"
+import Header from "../src/components/header/Header.jsx"
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
