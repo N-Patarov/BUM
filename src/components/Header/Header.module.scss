@@ -1,0 +1,14 @@
+@use "../../styles/colors";
+
+.wrapper {
+  padding: 10px;
+}
+
+.container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.Button {
+  color: #4e24f2;
+}
