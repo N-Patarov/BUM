@@ -3,5 +3,5 @@ import Logo from "../src/components/logo/logo";
 import Header from "../src/components/Header/Header"
 
 export default function Index() {
-  return <Header />;
+  return <Example />;
 }
