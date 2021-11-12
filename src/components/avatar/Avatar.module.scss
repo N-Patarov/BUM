@@ -1,0 +1,19 @@
+.avatar{
+    display: flex;
+    align-items: center;
+    width:5%;
+    padding-bottom:0%;
+    position: relative;
+}
+.image{
+    width:100%;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.badge{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 28px;
+}
