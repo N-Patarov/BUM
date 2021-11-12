@@ -5,7 +5,11 @@ import Avatar from "../src/components/avatar/Avatar";
 import Header from "../src/components/header/Header.jsx"
 
 export default function Index() {
-  return <Header />;
-  return <Avatar />
-  return <Example />;
+  return( 
+    <div>
+      <Header />
+      <Avatar />
+      <Example />
+    </div>
+  );
 }
