@@ -26,7 +26,6 @@ export default function MyApp(props) {
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
-      <Avatar />
     </CacheProvider>
   );
 }
