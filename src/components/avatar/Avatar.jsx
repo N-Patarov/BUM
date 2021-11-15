@@ -2,7 +2,10 @@ import React from "react";
 import styles from "./Avatar.module.scss";
 import classNames from "classnames";
 
-export default function Avatar({size = 90, url='images/avatar.png', verified=false}){
+// Защо ми дава грешка при импорт в index.js независимо какво импортвам?
+// Предната задача я минах с ръчна проверка.
+// Никой не ми отговаря в лайв чата.
+export default function Avatar({size = 90, url='images/avatar.png', verified=false, style={width: size, height: size}}){
     
     return(
         <div width={size} height={size} className={classNames(styles.avatar)}>
