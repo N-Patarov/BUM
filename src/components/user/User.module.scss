@@ -1,0 +1,22 @@
+@use "../../styles/colors";
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: colors.$text_secondary;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.info {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: colors.$success_main;
+}
