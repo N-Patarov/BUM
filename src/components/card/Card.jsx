@@ -13,7 +13,7 @@ export default function Card({name = "asd", likes = 0, user = {}, mediaUrl = "",
     return(
         <MuiCard className={classNames(styles.card)}>
             <CardHeader className={classNames(styles.avatar)} avatar={
-            <Avatar size={33} url={user.avatarUrl} verified={user.verified}/>
+                <Avatar size={35} url={user.avatarUrl} verified={user.verified}/>
             }>
             </CardHeader>
             <CardMedia>
