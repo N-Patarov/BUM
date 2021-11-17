@@ -18,7 +18,7 @@ export default function Card({name = "asd", likes = 0, user = {}, mediaUrl = "",
             </CardMedia>
             <CardContent className={classNames(styles.content)}>
                 <div className={classNames(styles.title)}>{name}</div>
-                <div className={classNames(styles.price)}>{price}</div>
+                <div className={classNames(styles.price)} currency={currency}>~{price}</div>
                 <Chip className={classNames(styles.likes)} icon={<FavoriteIcon />} label={millify(likes)} variant="outlined" />
             </CardContent>
         </MuiCard>
