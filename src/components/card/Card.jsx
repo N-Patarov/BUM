@@ -9,7 +9,7 @@ import Chip from '@mui/material/Chip';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import millify from 'millify';
 
-export default function Card({name = "asd", likes = 0, user = {}, mediaUrl = "", price = 0, currency = "", timeLeft = 0}){
+export default function Card({name = "", likes = 0, user = {}, mediaUrl = "", price = 0, currency = "", timeLeft = 0}){
     return(
         <MuiCard className={classNames(styles.card)}>
             <CardHeader className={classNames(styles.avatar)} avatar={
