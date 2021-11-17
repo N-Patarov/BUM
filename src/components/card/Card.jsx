@@ -16,7 +16,7 @@ export default function Card({name = "asd", likes = 0, user = {}, mediaUrl = "",
             <Avatar size={33} url={user.avatarUrl} verified={user.verified}/>
             }>
             </CardHeader>
-            <CardMedia className={classNames(styles.media)} picture={mediaUrl}>
+            <CardMedia className={classNames(styles.media)} image={mediaUrl}>
                 media
             </CardMedia>
             <CardContent className={classNames(styles.content)}>
