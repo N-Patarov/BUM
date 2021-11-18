@@ -14,7 +14,7 @@ export default function Trending({
             <Select className={classNames(styles.select)} />
             <Grid className={classNames(styles.cards)}>
                 <Container>
-                    <Card />
+                    <Card number={0} name={"Clock"} />
                     <Card />
                     <Card />
                     <Card />
