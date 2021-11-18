@@ -1,0 +1,19 @@
+.wrapper{
+    justify-content: center;
+    width: 100%;
+}
+.trending{
+    display:flex;
+    width: 50%;
+    padding-left:10%;
+    padding-top:10%;
+}
+.select{
+    display:flex;
+    width: 50%;
+    padding-right:10%;
+    padding-top:10%;
+}
+.cards{
+    display: flex;
+}
