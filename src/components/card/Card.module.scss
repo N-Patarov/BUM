@@ -1,0 +1,37 @@
+@use "../../styles/colors";
+
+.card{
+    width: 50px;
+    width: 300px;
+    justify-content: stretch;
+    align-items: center;
+}
+.avatar{
+    padding-left:10%;
+    padding-top:10%;
+}
+.media{
+    align-items: center;
+    padding-left:10%;
+    padding-right:10%;
+    border-radius: 15px;
+    width: 70%;
+    height: 50%;
+}
+.content{
+    display: flex;
+    justify-content:space-between;
+}
+.title{
+    font-weight: bold;
+}
+.price{
+    padding-right: 50%;
+    bottom: 0px;
+    margin:0;
+    color:colors.$secondary_main;
+}
+.likes{
+    align-self: center;
+    color:colors.$secondary_main;
+}

@@ -12,7 +12,7 @@ export default function Avatar({size = 90, url='images/avatar.png', verified=fal
     return(
         <div style={{width: size, height: size}} className={classNames(styles.avatar)}>
             <img className={classNames(styles.image)} src={url}></img>
-            <img className={classNames(styles.badge)} src= {verified == true ? "images/verified.svg" : ""}></img>
+            {verified ? <img className={classNames(styles.badge)} src={"images/verified.svg"} /> : ""}
         </div>
     )
 }
