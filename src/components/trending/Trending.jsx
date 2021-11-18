@@ -15,9 +15,9 @@ export default function Trending({
             <Grid className={classNames(styles.cards)}>
                 <Container>
                     <Card number={0} name={"Clock"} />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card number={1} name={"DOGE"}/>
+                    <Card number={2} name={"BTC"}/>
+                    <Card number={3} name={"Litecoin"}/>
                 </Container>
             </Grid>
         </div>
