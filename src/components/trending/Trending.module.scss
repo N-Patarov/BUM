@@ -1,19 +1,19 @@
 .wrapper{
-    justify-content: center;
-    width: 100%;
+    padding-top:50px;
+}
+.gridContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .trending{
-    display:flex;
-    width: 50%;
-    padding-left:10%;
-    padding-top:10%;
+    font-weight: bold;
 }
 .select{
-    display:flex;
-    width: 50%;
-    padding-right:10%;
-    padding-top:10%;
+   display: inline;
 }
 .cards{
     display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
 }

@@ -10,16 +10,22 @@ export default function Trending({
     }){
     return(
         <div className={classNames(styles.wrapper)}>
-            <div className={classNames(styles.trending)}>Trending</div>
-            <Select className={classNames(styles.select)} />
-            <Grid className={classNames(styles.cards)}>
-                <Container>
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                </Container>
-            </Grid>
+            <Container>
+                <Grid container className={classNames(styles.gridContainer)}>
+                    <Grid item>
+                        <div className={classNames(styles.trending)}>Trending</div>
+                    </Grid>
+                    <Grid item>
+                        <Select className={classNames(styles.select)} />
+                    </Grid>
+                    <Grid item className={classNames(styles.cards)}>
+                        <Card number={0} name={"Clock"} />
+                        <Card number={1} name={"DOGE"}/>
+                        <Card number={2} name={"BTC"}/>
+                        <Card number={3} name={"Litecoin"}/>
+                    </Grid>
+                </Grid>
+            </Container>
         </div>
     );
 }
